@@ -78,7 +78,7 @@ html,body {
 }
 
 .header--bg{
-  background: url("../assets/images/header-background.png") no-repeat;
+  background: url("../assets/images/header-background.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -522,7 +522,7 @@ html,body {
 .portfolio__single-section .overlay-content{
   position: absolute;
   bottom: 25px;
-  margin-left: 35px;
+  margin-left: 15px;
   z-index: 10;
 }
 
@@ -835,7 +835,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgba(6, 62, 121, .9);
   z-index: -1;
 }
 
@@ -968,4 +968,24 @@ html,body {
   font-size: 14px;
   color: #fff;
   font-family: Roboto-Light;
+}
+
+.br-sect{
+    margin-top: 25px;
+}
+
+.port-collapse{
+    transition: 5.5s;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+}
+
+.port-collapse.open{
+    transition: 2.5s;
+    opacity: 1;
+    visibility: visible;
+    position: inherit;
+    
 }

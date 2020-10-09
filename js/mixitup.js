@@ -16,6 +16,7 @@
 
 /*--/ Star Counter /--*/
 
+
 (function(window) {
     'use strict';
 
@@ -259,7 +260,7 @@
             };
         }
     })();
-
+    
     /**
      * The `mixitup()` "factory" function creates and returns individual instances
      * of MixItUp, known as "mixers", on which API methods can be called.
